@@ -34,7 +34,7 @@ body {
     margin: 0 auto;
 }
 
-.main-container .main-wrapper .main-generator {
+.main-generator {
     border-bottom: 2px solid #2F3E53;
     padding: 35px 0;
 }
@@ -46,11 +46,7 @@ body {
     font-size: 40px;
     line-height: 40px;
     max-width: 355px;
-
     letter-spacing: -0.025em;
-
-    /* white */
-
     color: #FFFFFF;
     margin-bottom: 10px;
 }
@@ -65,16 +61,11 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    /* identical to box height, or 140% */
-
-
-    /* Medium grey */
-
     color: #D5D4D8;
     margin-bottom: 51px;
 }
 
-.main-container .main-wrapper .main-button {
+.main-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,20 +79,22 @@ body {
     background: #10B981;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-
     color: #FFFFFF;
     cursor: pointer;
-
 }
 
-.main-container .main-wrapper .passwords-container {
+.main-button:hover {
+    background: #10b981b7;
+}
+
+.passwords-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.main-container .main-wrapper .passwords-container .pass {
+.pass {
     width: 211px;
     height: 39px;
     background: #273549;
@@ -117,4 +110,9 @@ body {
     text-align: center;
     color: #55F991;
     margin: 35px 0;
+}
+
+.pass:hover {
+    background: #27354992;
+    cursor: text;
 }
