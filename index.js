@@ -7,7 +7,6 @@ const myPassLenght = 12
 function generatePasswords(characters, passLenght) {
     let pass = "";
     let randomNumber
-
     for (let index = 0; index <= passLenght; index++) {
         randomNumber = Math.floor((Math.random() * characters.length));
         pass += characters[randomNumber];
