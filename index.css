@@ -17,14 +17,10 @@ button {
 
 body {
     background: #1C1C1C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-container {
     background: #1F2937;
-    width: 100%;
     margin: 0 20px;
 }
 
